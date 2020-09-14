@@ -1,0 +1,47 @@
+
+
+.btn {
+white-space: normal;
+}
+
+a {
+	color: #333;
+}
+a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+.tel a {
+    text-decoration: underline;        
+}
+
+/* ------------------------------------------
+　ナビゲーションバー
+---------------------------------------------*/
+.mod-navbar {
+	position: relative;
+	padding: 1rem 0;
+}
+
+/* ------------------------------------------
+　カテゴリラベル位置
+---------------------------------------------*/
+.cate-label {
+	top:0.5em;
+	left: 1em;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+/* ------------------------------------------
+　フッター
+---------------------------------------------*/
+/* sns アイコン */
+.sns-nav img{
+	width: 36px;
+}
+/* トップへ戻る */
+.totop {
+	border: 2px solid #02A7C3;
+    top: 1rem;
+    right: 0;
+}

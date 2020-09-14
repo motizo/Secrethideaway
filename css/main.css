@@ -1,0 +1,133 @@
+
+/* ヘッダー */
+.header {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  z-index: 100;
+}
+
+/* TOPアイコン */
+.top_icon {
+  float: left;
+  width: 500px;
+  height: 100px;
+}
+
+/* Twitter&youtubeアイコン */
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 3px;
+  float: left;
+}
+
+/* 検索,Twitter&youtubeアイコン箇所 */
+.other_items {
+  margin-top: 3px;
+  margin: 5px 0;/*余白も指定できる*/
+  height: auto;
+  float: right;
+}
+
+.other_items #search_item {
+  float: left;
+  padding-right: 5px;
+}
+
+/* ヘッダーボタン箇所 */
+.button_items {
+  margin-left: 200px;
+  height: 55px;
+  float: right;
+}
+
+/* ↓id="nav"の中のulに対してCSSを適用*/
+.button_items ul {
+  list-style-type: none; /*箇条書きのポッチを消す*/
+  text-align:center; /*左右中央寄せは親要素に対して指定*/
+}
+
+/* ↓id="nav"の中のulの中のliに対してCSSを適用*/
+.button_items ul li { 
+  display: inline-block;/*inline-blockにします*/
+  width: 180px;/*幅も指定できる*/
+  padding: 10px 0;/*余白も指定できる*/
+  margin: 10px 0;/*余白も指定できる*/
+  vertical-align: middle;/*縦の表示位置も指定できる*/
+  background: skyblue;/*背景を水色に*/
+  font-weight: bold;/*文字を太字に*/
+  color:white; /*文字色を白に*/
+}
+
+/* Slider設定 */
+  .bx-custom-pager {
+  bottom: -80px !important; /* thumbnail 位置調整 */
+  text-align:center !important;
+  }
+  .bx-custom-pager .bx-pager-item {
+  width:90px !important; /* thumbnail サイズ調整 */
+  height:60px !important; /* thumbnail サイズ調整 */
+  margin:0 20px;
+  }
+  .bx-pager-item img {
+  border:1px solid #663030;
+  }
+  .bx-pager-item .active img {
+  border:1px solid #cc0000;
+  opacity: 0.7;
+  }
+
+/** twitter-items */
+.twitter_items {
+  width: 350px;
+  height: 400px;
+  border: 3px solid dodgerblue;
+  overflow:scroll;
+}
+
+.twitter_items #twitter_tittle {
+  width: 350px;
+  height: 50px;
+  border:1px solid dodgerblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter_items #twitter_button {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/** history-items */
+.history_items {
+  width: 350px;
+  height: 400px;
+  border: 3px solid #cc0000;
+  overflow:scroll;
+}
+
+.history_items #history_title {
+  width: 350px;
+  height: 50px;
+  border:1px solid #cc0000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+footer {
+  background-color: darkgray;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 3px;
+  z-index: 2147483647;
+}
